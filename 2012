@@ -1,4 +1,4 @@
-
+h
 import os,random,sys,time
 os.system("pkg install espeak")
 os.system("clear")
