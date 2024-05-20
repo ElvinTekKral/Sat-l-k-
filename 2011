@@ -35,7 +35,7 @@ from threading import Thread
 G = '\033[1;32m'
 ids=[]
 def get_id():
-  id=str(randrange(100000, 35000000))
+  id=str(randrange(1000000, 10000000))
   if id not in ids:
     ids.append(id)
     return id
