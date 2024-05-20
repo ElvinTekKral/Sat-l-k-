@@ -73,4 +73,4 @@ def get_username():
     except:
       print(' \033[2;31m İp Ban Yasaklandin ')
 for i in range(100):
-  Thread(target=get_username).start(
+  Thread(target=get_username).start()
